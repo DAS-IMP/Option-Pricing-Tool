@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+matplotlib.pyplot 
+streamlit.components.v1
+streamlit_extras.stylable_container
+scipy.stats
+matplotlib.colors
