@@ -395,7 +395,7 @@ if Model_Selection == "Black-Scholes":
         st.sidebar.write("---")
         st.sidebar.write("## PnL Decomposition Parameters")
         
-        delta_volatility = st.sidebar.number_input("Change in Implied Volatility(σ)", value = 0.00, key = 'change in volatility input')
+        delta_volatility = st.sidebar.number_input("Change in Implied Volatility(σ)", value = 0.10, key = 'change in volatility input')
         realised_volatility = st.sidebar.number_input("Realised Volatility(σ)", min_value = 0.00, value = 0.20, key = 'realised volatility input')
         dt = st.sidebar.number_input("Number of Trading Days in the Future", min_value = 1, value = 1, key = 'dt input')/252
         
@@ -614,7 +614,7 @@ if Model_Selection == "Binomial":
         st.sidebar.write("---")
         st.sidebar.write("## PnL Decomposition Parameters")
         
-        delta_volatility = st.sidebar.number_input("Change in Implied Volatility(σ)", value = 0.00, key = 'change in volatility input')
+        delta_volatility = st.sidebar.number_input("Change in Implied Volatility(σ)", value = 0.10, key = 'change in volatility input')
         realised_volatility = st.sidebar.number_input("Realised Volatility(σ)", min_value = 0.00, value = 0.20, key = 'realised volatility input')
         dt = st.sidebar.number_input("Number of Trading Days in the Future", min_value = 1, value = 1, key = 'dt input')/252
         
